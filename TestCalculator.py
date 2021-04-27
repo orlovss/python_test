@@ -8,7 +8,7 @@ class TestCalculator(unittest.TestCase):
     self.calculator = Calculator()
   #Each test method starts with the keyword test_
   def test_add(self):
-    self.assertEqual(self.calculator.add(4,7), 11)
+    self.assertEqual(self.calculator.add(5,7), 12)
   def test_subtract(self):
     self.assertEqual(self.calculator.subtract(10,5), 5)
   def test_multiply(self):
